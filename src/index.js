@@ -10,11 +10,7 @@ const root = ReactDOM.createRoot(el);
 
 // 4) Creat React compenent
 function App() {
-  let message = "Hi there";
-  if (Math.random() > 0.5) {
-    message = "Hello there";
-  }
-  return <h1>{message}</h1>;
+  return <input style={{ border: '3px dotted blue' }} type="number" min={5} />;
 }
 
 // 5) Show React compenent on the screen
