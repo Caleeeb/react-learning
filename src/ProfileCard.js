@@ -1,9 +1,10 @@
-function ProfileCard({ title, handle }) {
+function ProfileCard({ title, handle, image }) {
   return (
-  <div>
-    <div>Title is {title}</div>
-    <div>Handle is {handle}</div>
-  </div>
+    <div>
+      <img src={image} />
+      <div>Title is {title}</div>
+      <div>Handle is {handle}</div>
+    </div>
   );
 }
 
