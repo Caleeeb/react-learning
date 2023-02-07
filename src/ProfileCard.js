@@ -7,7 +7,7 @@ function ProfileCard({ title, handle, image }) {
         </figure>
       </div>
 
-      <div classname="card-content">
+      <div className="card-content">
         <div className="media-content">
           <p className="title is-4">{title}</p>
           <p className="subtitle is-6">{handle}</p>
@@ -16,5 +16,5 @@ function ProfileCard({ title, handle, image }) {
     </div>
   );
 }
-  
+
 export default ProfileCard;
